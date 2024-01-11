@@ -1,5 +1,6 @@
 {
 	"name": "reactfolio",
+	"homepage": "https://uluc130.github.io/portfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
@@ -30,7 +31,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"homepage": "https://uluc130.github.io/portfolio",
+		
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"test": "react-scripts test",
