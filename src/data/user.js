@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Portfolio by Uluc Hosgelen",
 		name: "Uluc Hosgelen",
-		email: "mail@tharindu.dev",
+		email: "uluchosgelen@gmail.com",
 		logo: "logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		twitter: "https://twitter.com/uluc130/",
+		github: "https://github.com/uluc130/",
+		linkedin: "https://www.linkedin.com/in/uluc-hosgelen-6894761b/",
 		instagram: "https://instagram.com/uluc130/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/"
