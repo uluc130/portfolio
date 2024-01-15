@@ -16,9 +16,10 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "IOS developer, and triathlete.",
+		title: "Hi, I’m Uluc Hosgelen",
+		subtitle: "iOS developer, and triathlete.",
 		description:
-			"Hi, I’m Uluc Hosgelen, an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes.. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I’m an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes.. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
@@ -35,21 +36,20 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Twitter Api",
+			description: "Local RESTApi Server created for Twitter-Clone course project with Node.js, Express, Mongoose & local MongoDB database",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo2: "",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/uluc130/twitter-api",
 		},
 
 		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			title: "Twitter Clone",
+			description: "Front-End created using SwiftUI for FullStack Twitter-Clone app project course",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/uluc130/twitter",
 		},
 
 		{
@@ -58,7 +58,7 @@ const INFO = {
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/uluc130/twitter",
 		},
 
 		{
