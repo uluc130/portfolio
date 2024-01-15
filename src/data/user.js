@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack IOS developer, and triathlete.",
+		title: "IOS developer, and triathlete.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi, I’m Uluc Hosgelen, an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes.. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
