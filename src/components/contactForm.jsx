@@ -34,7 +34,7 @@ export const ContactUs = () => {
 export default ContactUs
 // Styles
 const StyledContactForm = styled.div`
-  width: 400px;
+
 
   form {
     display: flex;
