@@ -25,12 +25,14 @@
 }
 
 
+
 .socials-container {
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
 	padding-left: 10px;
 }
+
 
 .contact-socials {
 	display: flex;
@@ -40,7 +42,8 @@
 .row {
 	display: flex;
 	
-	width: 100%;
+	
+	
 }
 .column {
 	float: left;
@@ -52,4 +55,10 @@
 	content: "";
 	display: table;
 	clear: both;
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.row {
+	  flex-direction: column;
+	}
   }
