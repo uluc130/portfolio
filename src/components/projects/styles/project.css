@@ -48,11 +48,13 @@
 }
 
 .project-link {
+	position: absolute;
+	bottom: 5 px;
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
-	padding-top: 20px;
+	
 }
 
 .project-link-icon {
