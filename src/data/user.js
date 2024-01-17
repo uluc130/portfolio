@@ -53,12 +53,12 @@ const INFO = {
 		},
 
 		{
-			title: "Project 3",
+			title: "Little Lemon Restaurant",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Capstone project for Coursera Meta IOS Developer program.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
 			linkText: "View Project",
-			link: "https://github.com/uluc130/twitter",
+			link: "https://github.com/uluc130/littlelemon",
 		},
 
 		

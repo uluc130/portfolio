@@ -61,18 +61,16 @@ const Contact = () => {
 							required fields and I'll get back to you as soon as
 							possible. 
 							</p>
-							Finally, if you prefer to connect on
-							social media, you can find me in links below.
 							
-							
-							Thanks again for your interest, and I look forward
-							to hearing from you!
 						</div>
 							
 					</div>
 					<div className="row">
 						<div className="column">
-								<ContactUs/>
+								<div className="contactus-container">
+									<ContactUs/>
+								</div>
+								
 						</div>
 						<div className="column">
 							<div className="socials-container">
@@ -82,7 +80,7 @@ const Contact = () => {
 							</div>
 						</div>
 						
-						</div>
+					</div>
 					
 
 
