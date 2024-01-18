@@ -148,7 +148,12 @@
 	.homepage-articles {
 		flex-basis: auto;
 	}
-	
+	@media screen and (max-width: 600px) {
+		.homepage-education-container {
+		  flex-direction: column;
+		  
+		}
+	  }
 
 	
 }
