@@ -1,11 +1,21 @@
 @import "../../../data/styles.css";
 
+
+
+
 .works-body {
 	margin-bottom: 10px;
-	margin-right: 100px;
+	
 }
 
+
 .work {
+	display: flex;
+	padding: 40px;
+	width: 400px;
+	
+}
+.certificate {
 	display: flex;
 	padding-bottom: 40px;
 	width: 400px;
@@ -43,4 +53,15 @@
 	padding-top: 20px;
 	text-align: right;
 	color: var(--tertiary-color);
+}
+
+.work:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.work:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
 }

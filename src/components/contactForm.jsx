@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
-import { Alert } from 'bootstrap';
+
 
 export const ContactUs = () => {
   const form = useRef();

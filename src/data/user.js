@@ -78,7 +78,23 @@ const INFO = {
 		  Type: "Full Time",
 		  Duration: "Aug 2020 - Present",
 		},
-	  ]
+	  ],
+	certifications: [
+		{
+			name: "Meta iOS Developer Specializations",
+			teacher: "Meta",
+			issuedBy: "Coursera",
+			date:"September 2023",
+			link: "https://www.coursera.org/account/accomplishments/specialization/certificate/HHKWQZDP3MTM" 
+		},
+		{
+			name: "SwiftUI & Node.JS FullStack",
+			teacher: "Cem Salta",
+			issuedBy: "Udemy",
+			date:"October 2023",
+			link: "https://www.udemy.com/certificate/UC-bd988e18-52d3-4432-81eb-3489bf2cde20/" 
+		}
+	]
 };
 
 

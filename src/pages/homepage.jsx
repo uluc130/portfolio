@@ -16,12 +16,14 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import Certifications from "../components/certifications";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -192,10 +194,15 @@ const Homepage = () => {
 								))}
 							</div> */}
 							
-
-							<div className="homepage-works">
-								<Works />
+							<div className="homepage-education-container">
+								<div className="homepage-works">
+									<Works />
+								</div>
+								<div className="homepage-works">
+									<Certifications />
+								</div>
 							</div>
+							
 						</div>
 
 						<div className="page-footer">
