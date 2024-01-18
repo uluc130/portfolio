@@ -1,11 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
 import { Alert } from 'bootstrap';
 
 export const ContactUs = () => {
   const form = useRef();
-  var message = ""
+  const [formValues, setFormValues] = useState({
+    name: "",
+    email: "",
+    message: ""
+    
+  });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +22,12 @@ export const ContactUs = () => {
     .then((result) => {
         console.log(result.text);
         alert("Your message has been sent successfully")
-        message = "message sent"
+        setFormValues({
+            name: "",
+            email: "",
+            message: "",
+            
+          });
     }, (error) => {
         console.log(error.text);
     });
@@ -29,7 +39,9 @@ export const ContactUs = () => {
     <StyledContactForm>
         <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" required/>
+        <input type="text" name="user_name" value={formValues.name}
+          onChange={(e) =>
+            setFormValues({ ...formValues, name: e.target.value })}/>
         <label>Email</label> 
         <input type="email" name="user_email" required />
         <label>Message</label>

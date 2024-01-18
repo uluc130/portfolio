@@ -8,6 +8,8 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import Works from "../components/homepage/works";
+
 
 import "./styles/about.css";
 
@@ -48,6 +50,10 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<div className="homepage-works">
+								<Works />
+							</div>
+								
 							</div>
 
 							<div className="about-left-side">

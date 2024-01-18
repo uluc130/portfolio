@@ -63,6 +63,25 @@ const INFO = {
 
 		
 	],
+	eduDetails: [
+		{
+		  Position: "Frontend Development",
+		  Company: "Udemy, YouTube, Google, Medium",
+		  Location: "Online",
+		  Type: "Full Time",
+		  Duration: "Jan 2022 - Present",
+		},
+		{
+		  Position: "Bachelor in Electronics & Communication",
+		  Company: `Your College Name here`,
+		  Location: "Bengaluru",
+		  Type: "Full Time",
+		  Duration: "Aug 2020 - Present",
+		},
+	  ]
 };
 
-export default INFO;
+
+  
+
+export default INFO
