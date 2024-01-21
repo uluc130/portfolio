@@ -1,3 +1,5 @@
+import { faFigma, faGit, faGitAlt, faJs, faNode, faReact, faSwift } from "@fortawesome/free-brands-svg-icons";
+
 const INFO = {
 	main: {
 		title: "Portfolio by Uluc Hosgelen",
@@ -19,14 +21,12 @@ const INFO = {
 		title: "Hi, I’m Uluc Hosgelen",
 		subtitle: "iOS developer, and triathlete.",
 		description:
-			"I’m an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes.. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I’m an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
 		title: "I’m Uluç Hoşgelen. I live in Istanbul, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
+		description:"I am a software developer with a passion for challenging myself. After a successful and long career in a different field, I decided to pursue my dream of becoming a software developer. I have recently been learning iOS development and have focused developing mobile applications using native Swift language and Apple’s modern framework SwiftUI. I am excited to apply my skills and knowledge to create innovative and user-friendly mobile applications with clean code and good design principle. I like to deal with data, interested in databases, api’s and backend development. My learning process will never end. Every day I am adding new skills to my skillset, with my goal in my mind to become a full stack developer."},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -94,7 +94,44 @@ const INFO = {
 			date:"October 2023",
 			link: "https://www.udemy.com/certificate/UC-bd988e18-52d3-4432-81eb-3489bf2cde20/" 
 		}
-	]
+	],
+	techStack: [
+		{
+			name: "Swift",
+			logo: faSwift,
+			type: "language"
+		},
+		{
+		name: "JavaScript",
+		logo: faJs,
+		type: "language"
+	},
+	{
+		name: "Node.Js",
+		logo: faNode,
+		type: "language"
+	},
+	{
+		name: "React",
+		logo: faReact,
+		type: "language"
+	},
+	{
+		name: "React Native",
+		logo: faReact,
+		type: "language"
+	},
+	{
+		name: "Git",
+		logo: faGitAlt,
+		type: "language"
+	}, 
+	{
+		name: "Figma",
+		logo: faFigma,
+		type: "language"
+	}
+	],
 };
 
 

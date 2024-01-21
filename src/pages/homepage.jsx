@@ -18,6 +18,7 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import Certifications from "../components/certifications";
 
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -174,6 +175,7 @@ const Homepage = () => {
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
+						
 
 						<div className="homepage-after-title">
 							

@@ -14,7 +14,7 @@ const Certifications = () => {
 					icon={faCertificate}
 					title="Certifications"
 					body={<div className="works-body">
-						<Link to={INFO.certifications[0].link}>
+						<Link to={INFO.certifications[0].link} style={{ textDecoration: 'none' }}>
 						<div className="work">
 							
 							<img
@@ -29,7 +29,7 @@ const Certifications = () => {
 							
 						</div>
 						</Link>
-						<Link to={INFO.certifications[1].link}>
+						<Link to={INFO.certifications[1].link} style={{ textDecoration: 'none' }}>
 						<div className="work">
 							<img
 								src="Udemy-Logo.png"
