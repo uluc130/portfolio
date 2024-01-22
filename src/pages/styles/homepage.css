@@ -148,7 +148,10 @@
 	.homepage-articles {
 		flex-basis: auto;
 	}
-	@media screen and (max-width: 900px) {
+	.homepage-education-container{
+		flex-basis: auto;
+	}
+	@media screen and (max-width: 600px) {
 		.row {
 		  flex-direction: column;
 		  
