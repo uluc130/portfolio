@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useRef, useState, useEffect } from "react";
 
 import INFO from "../../data/user";
 
@@ -11,7 +12,18 @@ const Logo = (props) => {
 	if (link === undefined) {
 		link = true;
 	}
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleWindowResize);
+		return () => {
+			window.removeEventListener('resize', handleWindowResize);
+		  };
+		});
 	const imageElement = (
 		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
 	);
@@ -19,6 +31,10 @@ const Logo = (props) => {
 	return (
 		<React.Fragment>
 			{link ? <Link to="/">{imageElement}</Link> : imageElement}
+			<div>
+				<h2>Width: {windowWidth}</h2>
+				
+    		</div>
 		</React.Fragment>
 	);
 };

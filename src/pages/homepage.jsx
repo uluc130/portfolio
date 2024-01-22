@@ -177,7 +177,7 @@ const Homepage = () => {
 						</div>
 						
 
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title"> */}
 							
 							{/* <div className="homepage-articles">
 								{myArticles.map((article, index) => (
@@ -205,7 +205,7 @@ const Homepage = () => {
 								</div>
 							</div>
 							
-						</div>
+						{/* </div> */}
 
 						<div className="page-footer">
 							<Footer />

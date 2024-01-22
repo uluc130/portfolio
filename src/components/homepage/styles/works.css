@@ -13,14 +13,15 @@
 .work {
 	display: flex;
 	padding: 20px;
-	width: 400px;
-	
+	width: 350px;
+	flex-basis: auto;
 	
 }
 .certificate {
 	display: flex;
 	padding-bottom: 20px;
 	width: 350px;
+	flex-basis: auto;
 	
 	
 }

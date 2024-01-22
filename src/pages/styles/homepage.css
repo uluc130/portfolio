@@ -79,6 +79,7 @@
 .homepage-projects {
 	flex-basis: 300px;
 	padding-top: 40px;
+	background-color: blueviolet;
 }
 
 .homepage-articles {
@@ -98,6 +99,8 @@
 }
 .homepage-education-container {
 	display: flex;
+	background-color: aquamarine;
+	
 }
 
 @media (max-width: 1024px) {
@@ -140,15 +143,15 @@
 	.homepage-after-title {
 		flex-direction: column;
 	}
+	.homepage-education-container{
+		flex-direction: column;
+	}
 
 	.homepage-projects {
 		flex-basis: auto;
 	}
 
 	.homepage-articles {
-		flex-basis: auto;
-	}
-	.homepage-education-container{
 		flex-basis: auto;
 	}
 	@media screen and (max-width: 600px) {
