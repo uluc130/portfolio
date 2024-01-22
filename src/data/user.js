@@ -21,12 +21,12 @@ const INFO = {
 		title: "Hi, I’m Uluc Hosgelen",
 		subtitle: "iOS developer, and triathlete.",
 		description:
-			"I’m an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. I am proficient in Swift and Xcode. I am a quick learner and enjoy working on challenging projects. In my free time, I enjoy training for triathlons and exploring new routes. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I’m an aspiring iOS mobile app developer with a passion for sports, especially triathlons. I am also interested in backend development, databases, and working with APIs. In my free time, I enjoy training for triathlons and exploring new routes. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
 		title: "I’m Uluç Hoşgelen. I live in Istanbul, where I design the future.",
-		description:"I am a software developer with a passion for challenging myself. After a successful and long career in a different field, I decided to pursue my dream of becoming a software developer. I have recently been learning iOS development and have focused developing mobile applications using native Swift language and Apple’s modern framework SwiftUI. I am excited to apply my skills and knowledge to create innovative and user-friendly mobile applications with clean code and good design principle. I like to deal with data, interested in databases, api’s and backend development. My learning process will never end. Every day I am adding new skills to my skillset, with my goal in my mind to become a full stack developer."},
+		description:"I am a software developer with a passion for challenging myself. After a successful and long career in a different field, I decided to pursue my dream of becoming a software developer.\n I have recently been learning iOS development and have focused developing mobile applications using native Swift language and Apple’s modern framework SwiftUI. I am excited to apply my skills and knowledge to create innovative and user-friendly mobile applications with clean code and good design principle. I like to deal with data, interested in databases, api’s and backend development. My learning process will never end. Every day I am adding new skills to my skillset, with my goal in my mind to become a full stack developer."},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -98,43 +98,59 @@ const INFO = {
 	techStack: [
 		{
 			name: "Swift",
-			logo: faSwift,
+			logo: "ci-2xl ci-swift",
 			type: "language"
 		},
 		{
 		name: "JavaScript",
-		logo: faJs,
+		logo: "ci-2xl ci-js",
 		type: "language"
 	},
 	{
 		name: "Node.Js",
-		logo: faNode,
+		logo: "ci-2xl ci-nodejs",
 		type: "language"
 	},
 	{
 		name: "React",
-		logo: faReact,
+		logo: "ci-2xl ci-reactjs",
 		type: "language"
 	},
 	{
 		name: "React Native",
-		logo: faReact,
+		logo: "ci-2xl ci-react-native",
 		type: "language"
 	},
 	{
 		name: "Git",
-		logo: faGitAlt,
+		logo: "ci-2xl ci-git",
 		type: "language"
 	}, 
 	{
 		name: "Figma",
-		logo: faFigma,
+		logo: "ci-2xl ci-figma",
 		type: "language"
+	},
+	{
+		name: "Firebase",
+		logo: "ci-2xl ci-firebase",
+		type: "Saas",
 	}
-	],
+	,
+	{
+		name: "MongoDb",
+		logo: "ci-2xl ci-mongodb2",
+		type: "Saas"
+	},
+	{
+		name: "Css",
+		logo: "ci-2xl ci-css",
+		type: "Saas"
+	},
+
+]
 };
 
 
   
-
 export default INFO

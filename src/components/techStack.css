@@ -4,8 +4,10 @@
 
 
 .item-icon {
-    padding: 10px;
+    padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    
 	font-size: 30px;
 	transition: color 0.2s ease-in-out;
 	color:black;

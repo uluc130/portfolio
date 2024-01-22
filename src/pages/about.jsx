@@ -52,7 +52,7 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
-									<p className="bold-text">Other Facts</p>
+									<p className="bold-text"><strong>Other Facts</strong></p>
 									<ul>
 										<li>I am a triathlete. One sport was not enough, so I swim, bike and run 🏊🚴‍♂️🏃‍♂️</li>
 										<li>My experience in sport, has taught me the importance of hard work, dedication, and perseverance and planning.</li>
