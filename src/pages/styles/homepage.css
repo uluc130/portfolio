@@ -79,7 +79,7 @@
 .homepage-projects {
 	flex-basis: 300px;
 	padding-top: 40px;
-	background-color: blueviolet;
+	
 }
 
 .homepage-articles {
@@ -94,12 +94,13 @@
 
 .homepage-works {
 	width: 100%;
-	padding-top: 30px;
-	padding-right:10px;
+	
+	
 }
 .homepage-education-container {
 	display: flex;
-	background-color: aquamarine;
+	
+	gap: 10px;
 	
 }
 
