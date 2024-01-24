@@ -26,7 +26,10 @@ const INFO = {
 
 	about: {
 		title: "I’m Uluç Hoşgelen. I live in Istanbul.",
-		description:"I am a software developer with a passion for challenging myself. After a successful and long career in a different field, I decided to pursue my dream of becoming a software developer.\n\n I have recently been learning iOS development and have focused developing mobile applications using native Swift language and Apple’s modern framework SwiftUI. I am excited to apply my skills and knowledge to create innovative and user-friendly mobile applications with clean code and good design principle. I like to deal with data, interested in databases, api’s and backend development. My learning process will never end. Every day I am adding new skills to my skillset, with my goal in my mind to become a full stack developer."},
+		description:"I am a software developer with a passion for challenging myself. After a successful and long career in a different field, I decided to pursue my dream of becoming a software developer. ",
+		current:"I have recently been learning iOS development and have focused developing mobile applications using native Swift language and Apple’s modern framework SwiftUI. I am excited to apply my skills and knowledge to create innovative and user-friendly mobile applications with clean code and good design principles.",
+		interest: "I like to deal with data, interested in databases, api’s and backend development. My learning process will never end. Every day I am adding new skills to my skillset, with my goal in my mind to become a full stack developer.",
+	},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
