@@ -39,7 +39,7 @@ const About = () => {
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
-							<Logo width={46} />
+							<Logo width={64} />
 						</div>
 					</div>
 
@@ -51,7 +51,9 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									<p>{INFO.about.description}</p>
+									<p>{INFO.about.current}</p>
+									<p>{INFO.about.interest}</p>
 									<p className="bold-text"><strong>Other Facts</strong></p>
 									<ul>
 										<li>I am a triathlete. One sport was not enough, so I swim, bike and run 🏊🚴‍♂️🏃‍♂️</li>

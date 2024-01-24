@@ -35,31 +35,24 @@ const Contact = () => {
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
-							<Logo width={46} />
+							<Logo width={64} />
 						</div>
 					</div>
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Connect with Me
 						</div>
 
 						<div className="subtitle contact-subtitle">
 							<p>
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
+							You can use the contact form below to get in touch. Simply fill out the
+							required fields and I'll get back to you as soon as
+							possible. Alternatively, please feel free to email me directly at
 							&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>.
-							</p>
-							<p>
-							Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. 
 							</p>
 							
 						</div>

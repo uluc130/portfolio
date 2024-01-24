@@ -31,10 +31,10 @@ const Logo = (props) => {
 	return (
 		<React.Fragment>
 			{link ? <Link to="/">{imageElement}</Link> : imageElement}
-			<div>
+			{/* <div>
 				<h2>Width: {windowWidth}</h2>
 				
-    		</div>
+    		</div> */}
 		</React.Fragment>
 	);
 };

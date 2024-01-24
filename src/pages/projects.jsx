@@ -34,17 +34,16 @@ const Projects = () => {
 				<div className="content-wrapper">
 					<div className="projects-logo-container">
 						<div className="projects-logo">
-							<Logo width={46} />
+							<Logo width={64} />
 						</div>
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Have a look at my latest work
 						</div>
 
 						<div className="subtitle-projects-subtitle">
-							I've worked on a these projects over my learning journey
+							I've worked on these projects over my learning journey
 							and I'm proud of the progress I've made. 
 						</div>
 
